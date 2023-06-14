@@ -167,7 +167,7 @@
 //     } else console.log("Bir xonali toq son");
 //   }
 // }
-
+//a
 // number < 1000
 //   ? number % 2 === 0
 //     ? number >= 100
