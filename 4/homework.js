@@ -225,3 +225,18 @@
 
 // else  console.log("C A ga yaqin.Ular orasidagi masofa-"+c1)
 
+//switch case
+
+// if (browser === 'Edge') {
+//     alert("You've got the Edge!");
+//   } else if (
+//     browser === 'Chrome' ||
+//     browser === 'Firefox' ||
+//     browser === 'Safari' ||
+//     browser === 'Opera'
+//   ) {
+//     alert('Okay we support these browsers too');
+//   } else {
+//     alert('We hope that this page looks ok!');
+//   }
+  
