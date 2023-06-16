@@ -15,7 +15,7 @@
 // git commit -m "xabar"
 
 // 6 => push
-// git push origin master 
+// git push origin master b
 
 // 7 => branch
 // git branch branchName => yangi branch qo'shish
