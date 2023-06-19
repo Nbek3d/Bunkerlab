@@ -152,7 +152,7 @@
 //   : console.log(365);
 
 // let number = 102; // 1 - 999
-// if (number < 1000) {
+// if (number < 10000) {
 //   if (number % 2 === 0) {
 //     if (number >= 100) {
 //       console.log("Uch xonali juft son");
