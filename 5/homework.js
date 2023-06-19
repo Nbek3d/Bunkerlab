@@ -10,7 +10,7 @@
 
 // 11
 
-// let n = 2, sum = 0;
+// let n = 4, sum = 0;
 
 // for (let i = n; i <= 2 * n; i++) {
 //     sum += i * i;
