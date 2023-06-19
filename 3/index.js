@@ -22,7 +22,7 @@
 // git checkout branchName => biz istagan branchga o'tish
 
 // 8 => test
-// Bu code test branch idan qo'shildi
+// Bu code test branchidan qo'shildi
 
 // 9 => dev
 // Bu code dev branch idan qo'shildi
