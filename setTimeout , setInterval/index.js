@@ -24,7 +24,7 @@
 //       console.log('Seconds:', seconds++);
 //     }, 1000);
   
-//     setTimeout(function() {
+//     setTimeout(function () {
 //       clearInterval(intervalId);
 //       console.log('Interval stopped.');
 //     }, 5000);
