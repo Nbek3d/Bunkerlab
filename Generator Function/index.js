@@ -32,46 +32,46 @@
 // console.log(nums.next().value);
 // console.log(nums.next().value);
 
-let data = [
-    {
-        id: 1,
-        name: 'Nodir1'
-    },
-    {
-        id: 2,
-        name: 'Nodir2'
-    },
-    {
-        id: 3,
-        name: 'Nodir3'
-    },
-    {
-        id: 4,
-        name: 'Nodir4'
-    },
-];
+// let data = [
+//     {
+//         id: 1,
+//         name: 'Nodir1'
+//     },
+//     {
+//         id: 2,
+//         name: 'Nodir2'
+//     },
+//     {
+//         id: 3,
+//         name: 'Nodir3'
+//     },
+//     {
+//         id: 4,
+//         name: 'Nodir4'
+//     },
+// ];
 
-let length = data.length;
+// let length = data.length;
 
-function* numberGenerator() {
-    while (1) {
-        yield ++length;
-    }
-}
+// function* numberGenerator() {
+//     while (1) {
+//         yield ++length;
+//     }
+// }
 
-let num = numberGenerator();
+// let num = numberGenerator();
 
-let addUser = (user) => {
-    data = [...data, { id: num.next().value,...user }]
-}
+// let addUser = (user) => {
+//     data = [...data, { id: num.next().value,...user }]
+// }
 
-let deleteUser = (id) => {
-    data = data.filter((user) => user.id !== id)
-}
+// let deleteUser = (id) => {
+//     data = data.filter((user) => user.id !== id)
+// }
 
-addUser({ name: 'Nodir5' })
-console.log(data);
-deleteUser(3)
-console.log(data);
-addUser({ name: 'Nodir5' })
-console.log(data);
+// addUser({ name: 'Nodir5' })
+// console.log(data);
+// deleteUser(3)
+// console.log(data);
+// addUser({ name: 'Nodir5' })
+// console.log(data);
