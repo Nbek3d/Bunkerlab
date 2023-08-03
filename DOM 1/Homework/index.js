@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const navMenu = createElementWithAttributes('nav', { class: 'df' });
     containerNavbar.appendChild(navMenu);
 
-    const navLinks = ['О нас', 'Услуги и цены', 'Фотоальбом', 'Контакты'];
-    for (const linkText of navLinks) {
+    const naLinks = ['О нас', 'Услуги и цены', 'Фотоальбом', 'Контакты'];
+    for (const linkText of naLinks) {
         const link = createElementWithAttributes('a', { href: '#', class: 'nav__link' });
         link.textContent = linkText;
         navMenu.appendChild(link);
